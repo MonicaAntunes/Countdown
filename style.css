@@ -23,11 +23,16 @@
   flex-direction: column;
 }
 
+.rocket {
+  display: flex;
+  width: 400px;
+}
+
 .titulo {
   color: #6C63FF;
   font-family: Poppins-ExtraBold;
   font-size: x-large;
-  align-self: center;
+  justify-items: left;
 }
 
 .subtitulo {
@@ -44,13 +49,10 @@
   color: #4D4C59;
 }
 
-.seconds {
+.top-image {
   display: flex;
 }
 
-.days {
-  display: flex;
-}
 
 .saibaMais {
   display: flex;
@@ -70,4 +72,8 @@
   border-style: hidden;
   border-radius: 5px;
   color: #C8C8C8;
+}
+
+.side-2 {
+  display: flex;
 }
